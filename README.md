@@ -32,7 +32,7 @@ This repository presents the design, modelling, and transient simulation of a 5 
 
 Presentation:
 
-- [HFT ANSYS Maxwell Presentation](docs/HFT_ANSYS_Maxwell_Presentation.pdf)
+- [HFT ANSYS Maxwell Presentation](docs/Simulation%20Of%20HFT%20In%20Ansys.pdf)
 
 ## Skills Demonstrated
 
