@@ -19,4 +19,4 @@ This repository presents the design, modelling, and transient simulation of a 5 
 
 Presentation:
 
-- [HFT ANSYS Maxwell Presentation](docs/Simulation Of HFT In Ansys.pdf)
+- [HFT ANSYS Maxwell Presentation](docs/HFT_ANSYS_Maxwell_Presentation.pdf)
