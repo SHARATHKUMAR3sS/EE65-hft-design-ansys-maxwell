@@ -20,7 +20,7 @@ Presentation:
 
 - [HFT ANSYS Maxwell Presentation](docs/HFT_ANSYS_Maxwell_Presentation.pdf)
 
-  ## Skills Demonstrated
+## Skills Demonstrated
 
 - High Frequency Transformer Design
 - ANSYS Maxwell 3D
@@ -31,7 +31,7 @@ Presentation:
 - Power Electronics
 - DAB Converter Design
 
-  ## Key Contributions
+ ## Key Contributions
 
 - Designed a 5 kW High Frequency Transformer
 - Selected EE65 ferrite core using Area Product Method
@@ -41,7 +41,7 @@ Presentation:
 - Performed transient simulations in ANSYS Maxwell
 - Validated peak flux density near 0.2 T
 
-  ## Transformer Model
+ ## Transformer Model
 
 ![Transformer Model](images/complete_transformer_model.png)
 
