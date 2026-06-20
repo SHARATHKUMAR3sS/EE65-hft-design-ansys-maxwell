@@ -80,3 +80,86 @@ Primary and secondary windings were modelled around the centre limb of the EE65 
 The complete transformer model consists of the EE65 ferrite core and the corresponding primary and secondary windings. This model was used for transient simulations under both sinusoidal and square-wave excitation conditions.
 
 ![Complete Transformer Model](images/complete_transformer_model.png)
+
+---
+
+# Simulation Results
+
+The transformer was analysed using the ANSYS Maxwell transient solver under both sinusoidal and square-wave excitation conditions. The objective was to verify voltage transformation, magnetizing behaviour, core losses, and magnetic flux distribution.
+
+---
+
+## Sinusoidal Excitation Results
+
+The primary winding was excited using a 100 kHz sinusoidal voltage source with a peak voltage of 339 V. The secondary winding was maintained under open-circuit conditions.
+
+### Input Voltage
+
+![Input Voltage](images/sine/input_voltage.png)
+
+### Induced Voltage
+
+![Induced Voltage](images/sine/induced_voltage.png)
+
+### Magnetizing Current
+
+![Current](images/sine/current.png)
+
+### Core Loss
+
+![Core Loss](images/sine/core_loss.png)
+
+### Observations
+
+- Transformer operation was successfully verified under sinusoidal excitation.
+- Voltage transformation ratio closely matched the designed turns ratio.
+- Peak flux density remained within the design target.
+- Core-loss behaviour was analysed using the transient solver.
+
+---
+
+## Square-Wave Excitation Results
+
+To emulate practical DAB converter operation, the transformer was excited using a 100 kHz square-wave voltage source.
+
+### Input Voltage
+
+![Input Voltage](images/square/input_voltage.png)
+
+### Induced Voltage
+
+![Induced Voltage](images/square/induced_voltage.png)
+
+### Magnetizing Current
+
+![Current](images/square/current.png)
+
+### Core Loss
+
+![Core Loss](images/square/core_loss.png)
+
+### Observations
+
+- Transformer operation was successfully verified under square-wave excitation.
+- Magnetic performance remained within the expected operating range.
+- Core-loss behaviour under non-sinusoidal excitation was investigated.
+- Results demonstrate suitability for DAB converter applications.
+
+---
+
+## Magnetic Flux Distribution
+
+### Flux Distribution Under Sinusoidal Excitation
+
+![Flux Distribution - Sine](images/flux/sine_flux_distribution.png)
+
+### Flux Distribution Under Square-Wave Excitation
+
+![Flux Distribution - Square](images/flux/square_flux_distribution.png)
+
+### Observations
+
+- Magnetic flux is concentrated primarily in the centre limb of the EE65 core.
+- Peak flux density remains close to the design target of 0.2 T.
+- No significant localized saturation was observed.
+- Flux distribution confirms proper utilization of the magnetic core.
