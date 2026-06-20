@@ -2,6 +2,20 @@
 
 This repository presents the design, modelling, and transient simulation of a 5 kW High Frequency Transformer (HFT) intended for a Dual Active Bridge (DAB) converter operating at 100 kHz. The transformer was designed using the Area Product Method, implemented using an EE65 ferrite core (N87 material), and validated through finite-element simulations in ANSYS Maxwell. The work includes custom ferrite material creation, B-H curve implementation, Steinmetz core-loss modelling, open-circuit testing, and magnetic field validation.
 
+## Contents
+
+- Design Specifications
+- Project Documentation
+- Skills Demonstrated
+- Key Contributions
+- B-H Curve Implementation
+- Transformer Core Geometry
+- Winding Geometry
+- Complete Transformer Model
+- Simulation Results
+  - Sinusoidal Excitation
+  - Square-Wave Excitation
+  - Magnetic Flux Distribution
 
 ## Design Specifications
 
@@ -22,28 +36,25 @@ Presentation:
 
 ## Skills Demonstrated
 
-- High Frequency Transformer Design
 - ANSYS Maxwell 3D
 - Finite Element Analysis (FEA)
+- High-Frequency Transformer Design
 - Ferrite Core Modelling
 - B-H Curve Implementation
 - Steinmetz Core Loss Modelling
+- Magnetic Field Analysis
 - Power Electronics
 - DAB Converter Design
 
- ## Key Contributions
+## Key Contributions
 
-- Designed a 5 kW High Frequency Transformer
-- Selected EE65 ferrite core using Area Product Method
-- Created custom N87 ferrite material
-- Imported nonlinear B-H characteristics
-- Implemented Steinmetz core loss modelling
-- Performed transient simulations in ANSYS Maxwell
-- Validated peak flux density near 0.2 T
-
-# High-Frequency Transformer (HFT) Design and Simulation for a 5 kW DAB Converter using ANSYS Maxwell
-
-This repository presents the design, modelling, and transient simulation of a 5 kW High Frequency Transformer (HFT) intended for a Dual Active Bridge (DAB) converter operating at 100 kHz. The transformer was designed using the Area Product Method, implemented using an EE65 ferrite core (N87 material), and validated through finite-element simulations in ANSYS Maxwell.
+- Designed a 5 kW, 100 kHz High-Frequency Transformer for a Dual Active Bridge (DAB) Converter.
+- Selected an EE65 ferrite core using the Area Product Method.
+- Developed a custom N87 ferrite material model in ANSYS Maxwell.
+- Implemented nonlinear B-H characteristics and Steinmetz core-loss modelling.
+- Performed transient open-circuit simulations under sinusoidal and square-wave excitation.
+- Evaluated magnetic field distribution and core utilization.
+- Verified peak flux density near the design target of 0.2 T.
 
 ---
 
