@@ -14,3 +14,9 @@ This repository presents the design, modelling, and transient simulation of a 5 
 | Primary Turns | 6 |
 | Secondary Turns | 9 |
 | Peak Flux Density | 0.2 T |
+
+## Project Documentation
+
+Presentation:
+
+- [HFT ANSYS Maxwell Presentation](docs/HFT_ANSYS_Maxwell_Presentation.pdf)
