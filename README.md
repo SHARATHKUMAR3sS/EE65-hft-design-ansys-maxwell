@@ -149,17 +149,30 @@ To emulate practical DAB converter operation, the transformer was excited using 
 
 ## Magnetic Flux Distribution
 
+The magnetic flux distribution within the EE65 ferrite core was analysed using ANSYS Maxwell transient simulations. The flux density plots were used to verify magnetic field distribution, core utilization, and compliance with the design flux density limit of 0.2 T.
+
 ### Flux Distribution Under Sinusoidal Excitation
 
-![Flux Distribution - Sine](images/flux/sine_flux_distribution.png)
-
-### Flux Distribution Under Square-Wave Excitation
-
-![Flux Distribution - Square](images/flux/square_flux_distribution.png)
+![Flux Distribution - Sine](images/flux/B_100C.gif)
 
 ### Observations
 
-- Magnetic flux is concentrated primarily in the centre limb of the EE65 core.
+- Magnetic flux is concentrated primarily within the centre limb of the EE65 core.
+- Flux distribution remains symmetric throughout the magnetic path.
 - Peak flux density remains close to the design target of 0.2 T.
-- No significant localized saturation was observed.
-- Flux distribution confirms proper utilization of the magnetic core.
+- No significant localized saturation is observed.
+
+---
+
+### Flux Distribution Under Square-Wave Excitation
+
+![Flux Distribution - Square](images/flux/B_100oC.gif)
+
+### Observations
+
+- Magnetic flux follows the expected path through the ferrite core under square-wave excitation.
+- The core remains within the intended operating flux density range.
+- The magnetic field distribution confirms proper utilization of the magnetic material.
+- The transformer is suitable for DAB converter operation at 100 kHz.
+
+---
