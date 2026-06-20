@@ -6,7 +6,7 @@ This repository presents the design, modelling, and transient simulation of a 5 
 ## Design Specifications
 
 | Parameter | Value |
-|------------|------------|
+|------------|------------| 
 | Power Rating | 5 kW |
 | Switching Frequency | 100 kHz |
 | Core Type | EE65 (N87) |
