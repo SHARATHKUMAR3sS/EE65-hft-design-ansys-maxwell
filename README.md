@@ -94,7 +94,7 @@ The complete transformer model consists of the EE65 ferrite core and the corresp
 
 ---
 
-# Simulation Results
+## Simulation Results
 
 The transformer was analysed using the ANSYS Maxwell transient solver under both sinusoidal and square-wave excitation conditions. The objective was to verify voltage transformation, magnetizing behaviour, core losses, and magnetic flux distribution.
 
@@ -187,3 +187,11 @@ The magnetic flux distribution within the EE65 ferrite core was analysed using A
 - The transformer is suitable for DAB converter operation at 100 kHz.
 
 ---
+
+## Author
+
+Sharath Kumar  
+B.Tech Electrical Engineering  
+Indian Institute of Technology Bhubaneswar
+
+Project: High-Frequency Transformer Design for DAB Converters using ANSYS Maxwell
